@@ -2,11 +2,13 @@
 
 This project aims to predict whether a tweet will go **viral** based on its content and engagement metrics like **likes, retweets, and hashtags**. It uses natural language processing (NLP) and machine learning to classify tweets as `Viral` or `Non-Viral`.
 
+**Test Now:** [tweet-virality-predictor.streamlit.app](https://safiullahaamir-tweetviralityp-tweetviralitypredictor-app-ecl9bj.streamlit.app/)
+
 ---
 
 ## 📁 Dataset
 
-- `tweet_content-engagement_dataset.csv`: Contains 500 tweets with the following columns:
+- `tweet_content-engagement_dataset.csv`: Contains 484 tweets with the following columns:
   - `Tweet Content`: The text of the tweet
   - `Likes`: Number of likes
   - `Retweets`: Number of retweets
@@ -21,7 +23,7 @@ The dataset is **balanced** with an equal number of viral and non-viral tweets.
 
 To build a machine learning model that predicts a tweet’s virality using:
 - Tweet text (via TF-IDF)
-- Likes, Retweets, and Hashtag Count
+- Hashtag Count
 
 ---
 
@@ -38,6 +40,8 @@ To build a machine learning model that predicts a tweet’s virality using:
    - Logistic Regression for binary classification
 5. **Evaluation**
    - Confusion matrix, accuracy, precision, recall, F1-score
+6. **Deployment**
+   - Deployed app on streamlit
 
 ---
 
