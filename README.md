@@ -2,7 +2,7 @@
 
 This project aims to predict whether a tweet will go **viral** based on its content and engagement metrics like **likes, retweets, and hashtags**. It uses natural language processing (NLP) and machine learning to classify tweets as `Viral` or `Non-Viral`.
 
-**Test Now:** [tweet-virality-predictor.streamlit.app](https://safiullahaamir-tweetviralityp-tweetviralitypredictor-app-ecl9bj.streamlit.app/)
+**Test Now:** [tweet-virality-predictor.streamlit.app](https://tweetviralitypredictor.streamlit.app/)
 
 ---
 
